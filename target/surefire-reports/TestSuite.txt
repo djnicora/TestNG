@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.264 s <<< FAILURE! - in TestSuite
+runners.RunnerTests.runScenario["Input Fields verify", "Optional[Perform simple tests]"](1)  Time elapsed: 0.124 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Start Driver' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Start Driver")
+public void start_driver() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am on Input Fields page")
+public void i_am_on_input_fields_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("I am entering field")
+public void i_am_entering_field() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on show message button")
+public void i_click_on_show_message_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the message")
+public void i_validate_the_message() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

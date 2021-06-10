@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NN Test Suite" >
+    <listeners>
+        <!-- <listener class which will be loaded it can be used instead @annotations"/> -->
+  <!--       <listener class-name="com.niko.listeners.AnnotationTransformer"/>
+        <listener class-name="com.niko.listeners.Listener"/> -->
+    </listeners>
+
+    <test name="UnitTest">
+        <classes>
+            <class name="runners.RunnerTests"/>
+        </classes>
+    </test>
+</suite>
